@@ -1,0 +1,89 @@
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.card-content{
+    height: 150px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+  }
+
+.checked{
+    color: orange;
+}
+
+.offcanvas-top{
+    height: fit-content;
+}
+
+#offcanvasGenres {
+    list-style-type: none; /* Eliminar los puntos predeterminados */
+    padding-left: 0;
+  }
+  
+#offcanvasGenres li::before {
+    content: "-";  /* Añadir guión antes de cada elemento */
+    margin-right: 8px; /* Añadir un pequeño espacio después del guión */
+    color: black; /* Puedes ajustar el color si lo necesitas */
+}
+
+.offcanvasTitle{
+    font-size:10% ;
+    padding-bottom: 5%;
+}  
+
+
+.star-full{
+    color: gold;
+    margin: 0.5px;
+    font-size: 1.5rem;
+}
+
+.star-empty{
+    color: white;
+    margin: 0.5px;
+    font-size: 1.5rem;
+}
+
+.list-group-item {
+    background-color: rgba(39, 35, 35, 0.162);
+    color: white;
+    border-color: black;
+}
+
+.star-container{
+    text-align: right; 
+    display: inline-block;
+    width: 100%; 
+  }
+
+.descripcion{
+    font-style: italic;
+}  
+
+.titulo{
+font-weight: bold;
+}
+
+.dropdown{
+    text-align: right;
+    margin-right: 10%;
+}
+
+#btndropdown{
+background-color:#0d6efd;
+color: rgb(255, 255, 255);
+width: 10%;
+font-weight: bold;
+}
